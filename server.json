@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.beatvig/beatvig-mcp",
+  "title": "BeatVig",
+  "description": "Sportsbook and prediction-market prices in Claude and ChatGPT. Needs BeatVig Premium + MCP Access.",
+  "version": "1.0.0",
+  "websiteUrl": "https://beatvig.com/sports-betting-mcp",
+  "repository": { "url": "https://github.com/beatvig/beatvig-mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.beatvig.com/mcp" }]
+}
